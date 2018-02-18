@@ -1,8 +1,9 @@
 Django==1.11.10
 djangorestframework==3.7.7
 djangorestframework-jwt==1.11.0
+dj-database-url==0.4.2
 pip==9.0.1
 PyJWT==1.5.3
 pytz==2018.3
 setuptools==28.8.0
-
+whitenoise==3.3.1
