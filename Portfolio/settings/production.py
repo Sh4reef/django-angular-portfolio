@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 SECRET_KEY = '4c227b2f-8d54-415b-b6bc-20ea18635987'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['sh4reef.herokuapp.com', '192.168.1.3']
+ALLOWED_HOSTS = ['sh4reef.herokuapp.com']
 
 
 # Application definition
@@ -138,3 +138,7 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticheroku')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+EMAIL_HOST = 'smtp.mailgun.org'
+EMAIL_HOST_USER = 'postmaster@sandboxe85335055b334e01ac94968d4db6e763.mailgun.org'
+EMAIL_HOST_PASSWORD = '1b62388fece193f234fd9eba05e54252'
