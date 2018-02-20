@@ -18,5 +18,6 @@ class ContactFormSerializer(serializers.Serializer):
                 'New contact',
                 'Name: {}\n\nMessage: {}\n\nCompany: {}\n\nPosition: {}'.format(name, message, company, position),
                 email,
-                ['shareef.banajr@gmail.com']
+                ['shareef.banjar@gmail.com'],
+                fail_silently=False
             )
