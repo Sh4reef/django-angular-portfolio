@@ -5,8 +5,8 @@ class ContactFormSerializer(serializers.Serializer):
     message = serializers.CharField()
     name = serializers.CharField()
     email = serializers.EmailField()
-    company = serializers.CharField(required=False)
-    position = serializers.CharField(required=False)
+    company = serializers.CharField(required=False, default='None')
+    position = serializers.CharField(required=False, default='None')
 
     def save(self):
         message = self.validated_data['message']
