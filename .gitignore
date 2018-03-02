@@ -5,6 +5,7 @@ Portfolio.pyproj
 readme.html
 env/
 Portfolio/settings/local.py
+Portfolio/default_settings.py
 
 # User-specific files
 *.suo
