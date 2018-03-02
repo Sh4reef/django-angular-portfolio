@@ -4,6 +4,7 @@
 Portfolio.pyproj
 readme.html
 env/
+Portfolio/settings/base.py
 Portfolio/settings/local.py
 Portfolio/default_settings.py
 
